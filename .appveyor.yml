@@ -1,0 +1,7 @@
+image:
+  - Visual Studio 2017
+build: off
+install:
+  - npm install
+test_script:
+  - npm test
