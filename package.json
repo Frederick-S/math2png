@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "standard"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,8 @@
   "dependencies": {
     "express": "^4.16.3",
     "mathjax-node-svg2png": "^2.0.0"
+  },
+  "devDependencies": {
+    "standard": "^11.0.1"
   }
 }
