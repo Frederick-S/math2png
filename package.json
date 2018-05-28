@@ -1,0 +1,22 @@
+{
+  "name": "math2png",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Frederick-S/math2png.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Frederick-S/math2png/issues"
+  },
+  "homepage": "https://github.com/Frederick-S/math2png#readme",
+  "dependencies": {
+    "mathjax-node-svg2png": "^2.0.0"
+  }
+}
