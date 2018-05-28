@@ -14,6 +14,8 @@ app.get('/', (request, response) => {
         scale: 2
     }, (data) => {
         if (data.errors) {
+            console.log(data.errors)
+
             response.status(500).end('TeX parse error')
         } else {
             const png = new Buffer(data.png.replace(/^data:image\/\w+;base64,/, ''), 'base64')
