@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/Frederick-S/math2png#readme",
   "dependencies": {
-    "express": "^4.16.3",
+    "express": "^4.17.3",
     "mathjax-node-svg2png": "^2.0.0"
   },
   "devDependencies": {
